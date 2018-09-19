@@ -1,0 +1,54 @@
+>git init  - to initialise the git in local.
+
+>git remote add origin https://github.com/navarathanb/7.15am.git
+to take the remote control
+
+>git pull origin 'master/branch'
+
+>git branch
+branch we used in local
+
+>git checkout branchname
+to move to existed branch.
+
+>git add filename
+to indexing the files into branch.
+
+>git add -A
+to add multiple files at a time.
+
+>git status
+to check the branch status
+
+>git commit -m "message"
+to store files in the local branch
+
+>git push origin "branchname"
+to push all local branch changes to remote branch
+
+// to delete the commits from local and remote
+
+>git log --pretty=oneline --abbrev-commit
+//to watch the commit ids.
+
+>git reset --hard HEAD^
+to delete last commit only from the local branch.
+
+>git reset --hard HEAD~2
+//to delete last two commits only from local branch
+
+>git push origin +branchname
+to push the local changes to remte with force.
+
+
+
+>git checkout -b newbranch
+to create new branch
+
+
+
+
+
+
+>git clone https://github.com/navarathanb/7.15am ex1
+to copying files from remote to local ex1 folder.
