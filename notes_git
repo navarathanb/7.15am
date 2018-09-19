@@ -26,13 +26,10 @@ to store files in the local branch
 >git push origin "branchname"
 to push all local branch changes to remote branch
 
-<<<<<<< HEAD
 >git branch -m newbranch_name
 to modify local branch name to new branch name
 
 
-=======
->>>>>>> 305f0d556783b27b14d52a6ebc920917176bd944
 // to delete the commits from local and remote
 
 >git log --pretty=oneline --abbrev-commit
